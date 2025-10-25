@@ -1,0 +1,23 @@
+# CubeIDE build output
+**/Debug/
+**/Release/
+**/.settings/
+
+# CubeIDE workspace metadata (don't sync machine-specific junk)
+.metadata/
+stm32_ws_clean*/
+stm32_ws_clean/
+
+# Compiled objects / binaries
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Logs / temp
+*.log
+
+# OS fluff
+.DS_Store
