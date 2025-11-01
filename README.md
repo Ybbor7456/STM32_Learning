@@ -12,4 +12,5 @@ These issues were much more painful to deal with than to write about, and I have
 # Issues Encountered #
 Previous startup printed output displays twice. The debugger holds the previous data from past flashes, often the ST-link buffer holds previous bits. The fix is as simple as unplugging the nucleo board and clearing/closing the serial program used to read output. Cleaner serial programs than screen are minicom and picocom. 
 CubeMX does not directly open generated code to CubeIDE, projects must be directly imported from CubeIDE. Unresolved. 
+TIM1/TIM2 issues when GPIO_Output is set to PA8-PA12. 
 
