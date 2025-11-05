@@ -21,3 +21,12 @@ stm32_ws_clean/
 
 # OS fluff
 .DS_Store
+**/Debug/
+**/Release/
+*.o
+*.d
+*.elf
+*.map
+.settings/
+.metadata/
+*.launch
